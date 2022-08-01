@@ -7,6 +7,10 @@ public class Ocean {
     }
 }
 
+// DP 경우의 수
+// 훔칠 금액 : target
+// 금고에 있는 돈의 종류 : type
+// target을 훔칠 수 있는 방법의 수를 리턴
 class Solution19 {
     public static long ocean(int target, int[] type) {
         long[] dp = new long[target+1];

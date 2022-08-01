@@ -7,6 +7,8 @@ public class PartTimeJob {
     }
 }
 
+// DP 최소 개수
+// 거스름돈 k를 만드는 동전의 최소 개수를 리턴
 class Solution17 {
 /*    public static int partTimeJob(int k) {
         int[] coin = {500, 100, 50, 10, 5, 1}; // 가지고 있는 동전
@@ -38,3 +40,24 @@ class Solution17 {
         return dp[k];
     }
 }
+
+/*
+초기 값
+k : 10
+coin : {1, 3, 5}
+dp : {0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?}
+? = max값
+
+for 문
+i = 0 -> coin : 1
+j : 1부터 시작
+dp : {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+i = 1 -> coin : 3
+j : 3부터 시작
+dp : {0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4}
+
+i = 2 -> coin : 5
+j : 5부터 시작
+dp : {0, 1, 2, 1, 2, 1, 2, 3, 2, 3, 2}
+ */

@@ -9,6 +9,7 @@ public class RemoveExtremes {
     }
 }
 
+// 문자열을 요소로 갖는 배열을 입력받아 가장 짧은 문자열과 가장 긴 문자열을 제거한 배열을 리턴
 class Solution16 {
     public static String[] removeExtremes(String[] arr) {
         if (arr.length == 0) return null;

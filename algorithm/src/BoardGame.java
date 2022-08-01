@@ -20,6 +20,7 @@ public class BoardGame {
     }
 }
 
+// 보드판과 조작키가 주어질 때, 말이 해당 칸을 지나가면서 획득한 숫자의 합을 리턴
 class Solution18 {
     public Integer boardGame(int[][] board, String operation) {
         Queue<Character> queue = new LinkedList<>();

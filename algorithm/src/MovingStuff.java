@@ -9,6 +9,10 @@ public class MovingStuff {
     }
 }
 
+// 짐의 무게를 담은 배열 : stuff
+// 박스의 무게 제한 : limit
+// 모든 짐을 옮기기 위해 필요한 박스 개수의 최소값을 리턴
+// 박스는 최대 2개의 짐을 넣을 수 있음
 class Solution15 {
     public static int movingStuff(int[] stuff, int limit) {
         List<Integer> list = new ArrayList<>();
