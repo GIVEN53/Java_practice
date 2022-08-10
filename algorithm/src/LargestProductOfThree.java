@@ -10,6 +10,8 @@ public class LargestProductOfThree {
     }
 }
 
+// 정수를 요소로 갖는 배열을 입력받아 3개의 요소를 곱해 나올 수 있는 최대값을 리턴
+// 배열의 요소는 음수와 0을 포함하는 정수
 class Solution34 {
     public int largestProductOfThree(int[] arr) {
         ArrayList<Integer> result = new ArrayList<>();
